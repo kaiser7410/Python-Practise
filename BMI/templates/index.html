@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/style.css" />
+    <title>BMI 計算器</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>BMI 計算器</h1>
+    </div>
+    <div class="area">
+      <form method="post">
+        <div>
+          <p>性別:</p>
+          <select class="select" name="sex" id="sex">
+            <option value="male" selected>男性</option>
+            <option value="female">女性</option>
+          </select>
+        </div>
+        <div>
+          <p>請輸入身高:</p>
+          <input
+            class="input_text"
+            type="number"
+            name="Height"
+            id="Height"
+            step="0.1"
+            placeholder="輸入身高(公分)"
+          />
+        </div>
+        <div>
+          <p>請輸入體重:</p>
+          <input
+            class="input_text"
+            type="number"
+            name="Weight"
+            id="Height"
+            step="0.1"
+            placeholder="輸入體重(公斤)"
+          />
+        </div>
+        <div class="button_area">
+          <button class="btn" type="submit">計算</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="calculate_result">
+      <p>BMI: {{bmi}} {{result}}</p>
+      <p>理想體重: {{ideal_weight}} 公斤</p>
+    </div>
+  </body>
+</html>

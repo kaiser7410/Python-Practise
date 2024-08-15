@@ -1,0 +1,63 @@
+body {
+  width: 500px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.area {
+  background-color: aliceblue;
+  width: 500px;
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgb(0, 0, 0, 0.1); /* box-shadow: 水平偏移 垂直偏移 模糊半徑 顏色(紅, 綠, 藍, 透明度)*/
+  display: flex;
+}
+
+.calculate_result {
+  background-color: aliceblue;
+  width: 500px;
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgb(0, 0, 0, 0.1); /* box-shadow: 水平偏移 垂直偏移 模糊半徑 顏色(紅, 綠, 藍, 透明度)*/
+}
+.button_area {
+  margin-top: 20px;
+  background-color: none;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+}
+
+.input_text {
+  flex-grow: 1;
+  border: none;
+  background-color: white;
+  padding: 10px 15px;
+  outline: none;
+  box-shadow: 0 10px 20px rgb(0, 0, 0, 0.1);
+}
+
+.btn {
+  position: absolute;
+  background-color: #0a0a23;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+  width: 50px;
+}
+
+.select {
+  border: 1px solid #bdb2bb;
+  border-radius: 10px;
+  outline: none;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+}
