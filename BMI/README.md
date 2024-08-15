@@ -2,4 +2,4 @@
 
 
 
-![image](https://drive.google.com/drive/u/0/folders/1Ntb_8IWyw9xNec2c8n9GLP3JQUPRS664)
+![image](https://github.com/kaiser7410/Python-Practise/blob/main/BMI/%E7%B6%B2%E7%AB%99%E5%9C%96.png)
