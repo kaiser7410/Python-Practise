@@ -36,7 +36,7 @@ def index():
             ideal_weight = (height - 80) * 0.7
         else:
             ideal_weight = (height - 70) * 0.6
-        return render_template('index.html', bmi=bmi, result=result, ideal_weight=ideal_weight)
+        return render_template('index.html', height=height, weight=weight, bmi=bmi, result=result, ideal_weight=ideal_weight)
     
     return render_template('index.html')
 
